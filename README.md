@@ -29,8 +29,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/WairimuAbigaelWairimu)
-- Twitter - [@yourusername](https://twitter.com/Abby_maribe)
+- Frontend Mentor - [@wairimuabigaelwairimu](https://www.frontendmentor.io/profile/WairimuAbigaelWairimu)
+- Twitter - [@abby_maribe](https://twitter.com/Abby_maribe)
 
 
 
