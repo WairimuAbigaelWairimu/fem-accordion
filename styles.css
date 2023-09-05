@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #808080;
+    overflow-y: scroll;
+}
+.accordion-body{
+    width: 100%;
+    background-image: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.accordion{
+    background-color: #fff;
+    width: 60%;
+    height: auto;
+    margin: 9em auto;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration{
+    position: absolute;
+}
+.accordion hr {
+    margin: 1em;
+    border: 1px solid grey;
+  }
+.accordion h1{
+    text-align: center;
+}
+.accordion .container{
+    position: relative;
+    margin: 1em 1em;
+}
+.accordion .label {
+    position: relative;
+    font-size: 1.25rem;
+    color: black;
+    cursor: pointer;
+}
+  .accordion .label::before {
+    content: '+';
+    color: hsl(14, 88%, 65%);
+    position: absolute;
+    top: 30%;
+    right: -5px;
+    font-size: 1.8rem;
+    transform: translateY(-50%);
+}
+.accordion .label:hover{
+    color: hsl(14, 88%, 65%);
+}
+.accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+.accordion .container.active .content {
+    height: 100px;
+    margin-top: 1em;
+}
+.accordion .container.active .label::before {
+    content: '-';
+}
+
+.attribution{
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+.attribution a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 375px) {
+    .row{
+        padding-top: 5em;
+    }
+    .images{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 1072px) {
+    .images{
+        display: none;
+    }
+  }
